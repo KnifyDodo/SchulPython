@@ -1,18 +1,26 @@
-def kgv(k, v):
-    global counter
+def ggt(k, v):
     if k == v:
         return k
     elif k > v:
-        return kgv(k-v, v)
-        counter=counter+1
+        return ggt(k-v, v)
     else:
-        return kgv(k, v-k)
-        counter=counter+1
-    print(counter)
-    return k*counter
+        return ggt(k, v-k)
+
+def kz(x, y):
+    if x > y:
+        return y
+    else:
+        return x
+
+def kgv(m, n, o):
+    if n > o:
+        return n*(o/m)
+    else:
+        return o*(n/m)
 
 
 zahl1=1
 zahl2=2
 counter=0
-print("Das KGV von ", zahl1, " und ", zahl2, " ist ", kgv(zahl1, zahl2))
+ggt = ggt(zahl1, zahl2)
+print("Das KGV von ", zahl1, " und ", zahl2, " ist ", kgv(ggt, zahl1, zahl2))
