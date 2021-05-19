@@ -1,0 +1,4 @@
+Das Quicksort Sortierverfahen ist rekursiv und instabil.
+Es wird das Pivot-Element genutzt (Im Normalfall der Median).
+Das Pivot-Element wird in die mitte gesetzt und alle drum herum werden sortiert nach dem.
+Dann nimmt er erneut Pivot-Element von links und rechts und sortiert die darum.
