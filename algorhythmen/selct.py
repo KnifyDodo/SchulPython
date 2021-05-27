@@ -7,7 +7,7 @@ def selectionSort( liste ):
                Bestes = SZeiger
 
        if Bestes != Anfang :
-           vertausche(liste,Anfang, Bestes)SS
+           vertausche(liste,Anfang, Bestes)
 
    return liste
 
