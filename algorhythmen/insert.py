@@ -1,4 +1,4 @@
-def insertionSort(liste):
+def hallo(liste):
    Ende = len( liste )
    for i in range(1,Ende):
 
@@ -12,5 +12,5 @@ def insertionSort(liste):
    return liste
 
 
-DieListe = [5,2,1,9,0,4,6]
-print(insertionSort(DieListe))
+DieListe = [5,2,1]
+print(hallo(DieListe))

@@ -7,7 +7,7 @@ def selectionSort( liste ):
                Bestes = SZeiger
 
        if Bestes != Anfang :
-           vertausche(liste,Anfang, Bestes)
+           vertausche(liste,Anfang, Bestes)SS
 
    return liste
 
@@ -16,5 +16,11 @@ def vertausche(liste,i,j):
    liste[i] = liste[j]
    liste[j] = x
 
-DieListe = [21,6,9,33,3]
+DieListe = [21,6,9]
 print(selectionSort(DieListe))
+
+
+Ende = 3
+Anfang = 2
+Bestes = 2
+SZeiger =
