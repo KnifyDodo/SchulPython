@@ -18,9 +18,3 @@ def vertausche(liste,i,j):
 
 DieListe = [21,6,9]
 print(selectionSort(DieListe))
-
-
-Ende = 3
-Anfang = 2
-Bestes = 2
-SZeiger =
