@@ -13,11 +13,10 @@ def selectionSort( liste ):
 
 
 
-
 def vertausche(liste,i,j):
    x = liste[i]
    liste[i] = liste[j]
    liste[j] = x
 
-DieListe = [21,6,9]
+DieListe = [7,2,9]
 print(selectionSort(DieListe))
