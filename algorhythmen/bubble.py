@@ -14,12 +14,11 @@ def bubbleSort( liste ):
 
    return liste
 
+
 def vertausche(liste,i,j):
    x = liste[i]
    liste[i] = liste[j]
    liste[j] = x
 
-DieListe = [1,2,3,5,4]
-
-
+DieListe = [7,2,9]
 print(bubbleSort(DieListe))

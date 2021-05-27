@@ -11,6 +11,9 @@ def selectionSort( liste ):
 
    return liste
 
+
+
+
 def vertausche(liste,i,j):
    x = liste[i]
    liste[i] = liste[j]
